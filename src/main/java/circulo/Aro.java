@@ -116,7 +116,7 @@ public class Aro {
      * @return the radio
      */
     public double getRadio() {
-       // return radio;
+      
         return radio=(radio < LIMITERADIO ? LIMITERADIO : radio);
     }
 
