@@ -1,7 +1,7 @@
 package circulo;
 
 /**
- * Probas de refactorización en NetBeans coa clase Aro
+ * Clase Aro a partir do centro (coordenadaX e coordenadaY) e do radio, sabemos o diámetro, a circunferencia e a área; y podemos desplazar ese centro con los valores de trasladarX y trasladarY
  * @author Marta
  */
 
