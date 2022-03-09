@@ -117,7 +117,7 @@ public class Aro {
      */
     public double getRadio() {
       
-        return radio=(radio < LIMITERADIO ? LIMITERADIO : radio);
+        return (radio < LIMITERADIO ? LIMITERADIO : radio);
     }
 
     /**
