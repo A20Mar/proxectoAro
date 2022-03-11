@@ -69,7 +69,10 @@ public class Aro {
     public double obterSuperficie() {
         return Math.PI * getRadio() * getRadio();
     }
-
+/**
+ * Método que devuelve un String
+ * @return el centro (coordenadaX, coordenadaY) y radio del círculo
+ */
     @Override
     public String toString() {
         return "Centro = [" + getCoordenadaX() + "," + getCoordenadaY() + "]; Radio = " + getRadio();
